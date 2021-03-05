@@ -6,7 +6,7 @@ import json
 
 
 HOST = 'https://search-domainforchatbot-gg7624dwhmrjufczb5k7ewur2e.us-east-1.es.amazonaws.com'
-AUTH = AWS4Auth('AKIATDPZNBACOB6B6G7R', '/7iD4F04zdBViaxVgI4TjU+5maWtYYDUSoOQCEFi', 'us-east-1', 'es')
+AUTH = AWS4Auth('1', '2', 'us-east-1', 'es')
 
 def create_index(es, index_name):
     # index settings
