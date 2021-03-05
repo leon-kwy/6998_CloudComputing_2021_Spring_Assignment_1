@@ -3,8 +3,8 @@ from elasticsearch.helpers import bulk
 from requests_aws4auth import AWS4Auth
 import json
 
-HOST = 'https://search-domainforchatbot-gg7624dwhmrjufczb5k7ewur2e.us-east-1.es.amazonaws.com'
-AUTH = AWS4Auth('AKIATDPZNBACOB6B6G7R', '/7iD4F04zdBViaxVgI4TjU+5maWtYYDUSoOQCEFi', 'us-east-1', 'es')
+HOST = '
+AUTH = AWS4Auth(, 'us-east-1', 'es')
 
 
 def search_es(es, index_name, query_body, offset, size):
